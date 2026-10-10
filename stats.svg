@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" viewBox="0 0 495 210" fill="none">
+<style>
+  text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .fade { opacity: 0; animation: fade .7s ease forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  .ring { animation: ring 1.4s cubic-bezier(.2,.8,.2,1) forwards; stroke-dashoffset: 326.7; }
+  @keyframes ring { to { stroke-dashoffset: 290.8; } }
+</style>
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#d4b483" stop-opacity="0"/><stop offset=".5" stop-color="#d4b483"/><stop offset="1" stop-color="#d4b483" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x=".5" y=".5" width="494" height="209" rx="12" fill="#0d1117" stroke="#2a2418"/>
+<rect x="40" y="0" width="415" height="1.5" fill="url(#edge)"/>
+<text x="24" y="38" font-size="16" font-weight="700" letter-spacing="1.5" fill="#d4b483">STATS</text>
+<text x="471" y="38" text-anchor="end" font-size="15" fill="#8b949e" opacity=".6" font-family="'Yu Mincho','MS Mincho','Noto Serif CJK JP',serif">統計</text>
+<g class="fade" style="animation-delay:150ms">
+  <text x="28" y="84" font-size="13" fill="#d4b483">★</text>
+  <text x="50" y="84" font-size="14" fill="#c9d1d9">Total stars</text>
+  <text x="290" y="84" text-anchor="end" font-size="14" font-weight="700" fill="#f5e6c8">0</text>
+</g>
+<g class="fade" style="animation-delay:270ms">
+  <text x="28" y="111" font-size="13" fill="#d4b483">◆</text>
+  <text x="50" y="111" font-size="14" fill="#c9d1d9">Commits (last year)</text>
+  <text x="290" y="111" text-anchor="end" font-size="14" font-weight="700" fill="#f5e6c8">48</text>
+</g>
+<g class="fade" style="animation-delay:390ms">
+  <text x="28" y="138" font-size="13" fill="#d4b483">⇄</text>
+  <text x="50" y="138" font-size="14" fill="#c9d1d9">Pull requests</text>
+  <text x="290" y="138" text-anchor="end" font-size="14" font-weight="700" fill="#f5e6c8">0</text>
+</g>
+<g class="fade" style="animation-delay:510ms">
+  <text x="28" y="165" font-size="13" fill="#d4b483">●</text>
+  <text x="50" y="165" font-size="14" fill="#c9d1d9">Issues</text>
+  <text x="290" y="165" text-anchor="end" font-size="14" font-weight="700" fill="#f5e6c8">0</text>
+</g>
+<g class="fade" style="animation-delay:630ms">
+  <text x="28" y="192" font-size="13" fill="#d4b483">▣</text>
+  <text x="50" y="192" font-size="14" fill="#c9d1d9">Public repos</text>
+  <text x="290" y="192" text-anchor="end" font-size="14" font-weight="700" fill="#f5e6c8">7</text>
+</g><g transform="translate(395 118)">
+  <circle r="52" stroke="#21262d" stroke-width="8"/>
+  <circle r="52" stroke="#d4b483" stroke-width="8" stroke-linecap="round" transform="rotate(-90)"
+    stroke-dasharray="326.7" stroke-dashoffset="290.8" class="ring"/>
+  <text y="6" text-anchor="middle" font-size="26" font-weight="800" fill="#f5e6c8" class="fade" style="animation-delay:600ms">55</text>
+  <text y="26" text-anchor="middle" font-size="11" letter-spacing="1" fill="#8b949e">CONTRIBS</text>
+  <text y="78" text-anchor="middle" font-size="11" fill="#8b949e">next goal · 500</text>
+</g>
+</svg>
